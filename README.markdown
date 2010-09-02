@@ -95,4 +95,7 @@ There are quite a few options for git flow feature. You can find them buy runnin
 
 If we push a feature branch to GitHub without releasing it(`git push origin feature/feature_example`), the network graph looks like this:
 
+![network-newfeature](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-newfeature.png "After pushing feature branch")
+
+
 
