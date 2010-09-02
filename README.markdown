@@ -2,6 +2,10 @@
 
 ## Initial Setup ##
 
+We start with this
+
+![network-1](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-1.png "Initial Commit Network Image")
+
 	➜  Git-Flow-Example git:(master) git flow init
 
 	Which branch should be used for bringing forth production releases?
@@ -15,6 +19,13 @@
 	Hotfix branches? [hotfix/] 
 	Support branches? [support/] 
 	Version tag prefix? []
+	
+Then after pushing the develop branch to github, we get this:
+
+![network-2](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-2.png "After git flow init")
 
 
-![network-1](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-1.png "Initial Commit Network Image")
+
+
+
+
