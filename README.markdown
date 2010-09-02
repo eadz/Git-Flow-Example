@@ -154,3 +154,10 @@ After pushing the master branch with `git push origin master` :
 ![network-after-push-master](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-after-push-master.png)
 
 
+## Further Resources ##
+
+[A successful Git branching model](http://nvie.com/git-model)
+[Git Flow](http://github.com/nvie/gitflow)
+
+
+This tutorial was created by [Eaden McKee](http://www.eadz.co.nz/) and licensed [Creative Commons by-nc-sa](http://creativecommons.org/licenses/by-nc-sa/3.0/nz/) ##
