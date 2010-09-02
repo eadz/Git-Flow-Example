@@ -97,5 +97,13 @@ If we push a feature branch to GitHub without releasing it(`git push origin feat
 
 ![network-newfeature](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-newfeature.png "After pushing feature branch")
 
+Once we release the feature by running `git flow feature finish feature_example`, the changes on the feature branch are merged back into the **develop** branch, but not the master branch.
 
+
+
+
+Once that happens, the network looks like this:
+
+
+You can see the green dots are the individual commits on this branch. 
 
