@@ -26,6 +26,11 @@ Then after pushing the develop branch to github, we get this:
 
 ## Releasing The Development Version ##
 
+### Release branches ###
+**May branch off from:** develop
+**Must merge back into:** develop and master
+**Branch naming convention:** release-*
+
 So far, we have been working on the development version. 
 Even though this post isn't production ready, I'm going to make a release branch using git flow. 
 
@@ -43,7 +48,6 @@ Even though this post isn't production ready, I'm going to make a release branch
 
 	     git flow release finish 'v0.1'
 
+When creating a release branch, it uses the current state of 'develop' branch as its base. You can make any further small commits to make it production ready, then you can run `git flow release finish 'v0.1'` to finish the release. 
 
-
-
-
+When the release is finished, the release branch will be merged to master. 
