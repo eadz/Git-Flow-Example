@@ -99,11 +99,21 @@ If we push a feature branch to GitHub without releasing it(`git push origin feat
 
 Once we release the feature by running `git flow feature finish feature_example`, the changes on the feature branch are merged back into the **develop** branch, but not the master branch.
 
+	➜  Git-Flow-Example git:(feature/feature_example)  git flow feature finish feature_example
+	Switched to branch 'develop'
+	Merge made by recursive.
+	 README.markdown               |   56 +++++++++++++++++++++++++++++++++++++++++
+	 images/network-newfeature.png |  Bin 0 -> 14738 bytes
+	 2 files changed, 56 insertions(+), 0 deletions(-)
+	 create mode 100644 images/network-newfeature.png
+	Deleted branch feature/feature_example (was 5b99b47).
 
+	Summary of actions:
+	- The feature branch 'feature/feature_example' was merged into 'develop'
+	- Feature branch 'feature/feature_example' has been removed
+	- You are now on branch 'develop'
 
+Once the develop branch is pushed to GitHub, network graph looks like this:
 
-Once that happens, the network looks like this:
-
-
-You can see the green dots are the individual commits on this branch. 
+![network-after-feature-merge](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-after-feature-merge.png "After pushing merging")
 
