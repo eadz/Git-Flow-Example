@@ -149,15 +149,18 @@ Note in the above description of what happened - Release branch has been merged 
 If we want others to have access to the release on GitHub, we need to push both master and develop branches. 
 
 After pushing the develop branch with `git push origin develop` :
+
 ![network-after-push-development](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-after-push-development.png)
+
 After pushing the master branch with `git push origin master` :
+
 ![network-after-push-master](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-after-push-master.png)
 
 
 ## Further Resources ##
 
-[A successful Git branching model](http://nvie.com/git-model)
-[Git Flow](http://github.com/nvie/gitflow)
+*[A successful Git branching model](http://nvie.com/git-model)
+*[Git Flow](http://github.com/nvie/gitflow)
 
 
-This tutorial was created by [Eaden McKee](http://www.eadz.co.nz/) and licensed [Creative Commons by-nc-sa](http://creativecommons.org/licenses/by-nc-sa/3.0/nz/) ##
+This tutorial was created by [Eaden McKee](http://www.eadz.co.nz/) and licensed [Creative Commons by-nc-sa](http://creativecommons.org/licenses/by-nc-sa/3.0/nz/)
