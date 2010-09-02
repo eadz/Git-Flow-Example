@@ -17,4 +17,4 @@
 	Version tag prefix? []
 
 
-![network-1](http://github.com/eadz/Git-Flow-Example/raw/master/images/network-1.png "Initial Commit Network Image")
+![network-1](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-1.png "Initial Commit Network Image")
