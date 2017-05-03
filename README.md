@@ -163,5 +163,6 @@ After pushing the master branch with `git push origin master` :
 
 * [A successful Git branching model](http://nvie.com/git-model)
 * [Git Flow](http://github.com/nvie/gitflow)
+* [Git Flow Cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet/) | Thanks [Denis Novikov](https://github.com/denisnovikov)
 
 This tutorial was created by [Eaden McKee](http://www.eadz.co.nz/) and licensed [Creative Commons by-nc-sa](http://creativecommons.org/licenses/by-nc-sa/3.0/nz/)
