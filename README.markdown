@@ -4,7 +4,7 @@
 
 We start with this
 
-![network-1](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-1.png "Initial Commit Network Image")
+![](images/network-1.png)
 
 	➜  Git-Flow-Example git:(master) git flow init
 
@@ -22,7 +22,7 @@ We start with this
 	
 Then after pushing the develop branch to github, we get this:
 
-![network-2](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-2.png "After git flow init")
+![](images/network-2.png)
 
 ## Releasing The Development Version ##
 
@@ -95,7 +95,7 @@ There are quite a few options for git flow feature. You can find them buy runnin
 
 If we push a feature branch to GitHub without releasing it(`git push origin feature/feature_example`), the network graph looks like this:
 
-![network-newfeature](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-newfeature.png "After pushing feature branch")
+![](images/network-newfeature.png)
 
 Once we release the feature by running `git flow feature finish feature_example`, the changes on the feature branch are merged back into the **develop** branch, but not the master branch.
 
@@ -115,5 +115,5 @@ Once we release the feature by running `git flow feature finish feature_example`
 
 Once the develop branch is pushed to GitHub, network graph looks like this:
 
-![network-after-feature-merge](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-after-feature-merge.png "After pushing merging")
+![](images/network-after-feature-merge.png)
 
