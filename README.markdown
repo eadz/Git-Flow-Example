@@ -117,3 +117,50 @@ Once the develop branch is pushed to GitHub, network graph looks like this:
 
 ![network-after-feature-merge](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-after-feature-merge.png "After pushing merging")
 
+
+Now it's time for another release 
+
+	➜  Git-Flow-Example git:(release/v0.2) git flow release finish v0.2                      
+	Switched to branch 'master'
+	Merge made by recursive.
+	 README.markdown                        |   66 ++++++++++++++++++++++++++++++++
+	 images/network-after-feature-merge.png |  Bin 0 -> 15281 bytes
+	 images/network-newfeature.png          |  Bin 0 -> 14738 bytes
+	 3 files changed, 66 insertions(+), 0 deletions(-)
+	 create mode 100644 images/network-after-feature-merge.png
+	 create mode 100644 images/network-newfeature.png
+	Switched to branch 'develop'
+	Merge made by recursive.
+	 README.markdown                        |   18 ++++++++++++++----
+	 images/network-after-feature-merge.png |  Bin 0 -> 15281 bytes
+	 2 files changed, 14 insertions(+), 4 deletions(-)
+	 create mode 100644 images/network-after-feature-merge.png
+	Deleted branch release/v0.2 (was 62426bf).
+
+	Summary of actions:
+	- Latest objects have been fetched from 'origin'
+	- Release branch has been merged into 'master'
+	- The release was tagged 'v0.2'
+	- Release branch has been back-merged into 'develop'
+	- Release branch 'release/v0.2' has been deleted
+
+Note in the above description of what happened - Release branch has been merged into 'master' and Release branch has been back-merged into 'develop'
+
+If we want others to have access to the release on GitHub, we need to push both master and develop branches. 
+
+After pushing the develop branch with `git push origin develop` :
+
+![network-after-push-development](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-after-push-development.png)
+
+After pushing the master branch with `git push origin master` :
+
+![network-after-push-master](http://github.com/eadz/Git-Flow-Example/raw/develop/images/network-after-push-master.png)
+
+
+## Further Resources ##
+
+*[A successful Git branching model](http://nvie.com/git-model)
+*[Git Flow](http://github.com/nvie/gitflow)
+
+
+This tutorial was created by [Eaden McKee](http://www.eadz.co.nz/) and licensed [Creative Commons by-nc-sa](http://creativecommons.org/licenses/by-nc-sa/3.0/nz/)
